@@ -1,7 +1,6 @@
-# Universidade Federal do Rio Grande do Norte
-## Departamento de Telecomunicações
-## Comunicações Móveis
-### Hands-on 2 - 2° unidade
+# Loja de Livros - Casablanca
+# E-commerce
+
 ---
 ### Table of Contents
 
@@ -14,7 +13,8 @@
 ---
 
 ### Description
-O software é parte integral da nota da segunda unidade de disciplina de Comunicações Móveis, no curso de Engenharia de Telecomunicações. Se trata de uma calculadora de taxa de downlink segundo as especificações contidas na release 8, 9, 10 do LTE-Advanced. O calculo do Throuput usando as recomendações da NP também fazem parte desse sistema.
+Project of one book store using Python and Django. This project using a relational database and is alredy have orientation a test, building 
+on test drive development(TDD). All classes used in project whith Class Based View. PostgreSQL is the databese using there. For creat API using on Django Rest Framework to serialize us objects.
 
 ---
 
@@ -22,6 +22,9 @@ O software é parte integral da nota da segunda unidade de disciplina de Comunic
 
 - Python
 - Django
+- PostgreSQL
+- Pytest
+- Django Rest Framework
 - Html5
 - Css3
 
@@ -29,29 +32,25 @@ O software é parte integral da nota da segunda unidade de disciplina de Comunic
 
 ### Instalation
 
-- Para criar o ambiente virtual
+- To create a virtual ambient
 ```html
      python3 -m venv "nome do ambiente virtual"
 ```
-- Para inicializar o ambiente virtual
+- To start a virtual ambient
 ```html
      source "nome do ambiente"/Scripts/activate 
      ou 
      "nome do ambiente"/bin/activate
 ```
-- Para instalar o Django
+- To install requirements
 ```html
-     pip install django
+     pip install -r requirements.txt
 ````
-- Para instalar o Python
-```html
-     pip install python
-```
 ---
 
 ### Run Project
 
-- Para rodar o projeto
+- To run
 ```html
      python manage.py runserver
 ```
